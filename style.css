@@ -1,0 +1,196 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.cf:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+@font-face {
+	font-family: YesevaOne;
+	src: url(assets/fonts/yesevaone/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: CrimsonText;
+	src: url(assets/fonts/crimsontext/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+	font-family: CrimsonText Bold;
+	src: url(assets/fonts/crimsontext/CrimsonText-Bold.ttf);
+	font-weight: bold;
+}
+
+/*HEADER START*/
+
+#navbar {
+	background-color: #0a645a;
+	overflow: auto;
+	border: .2em .2em 0 .2em solid #0a645a;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em; 
+}
+
+#logo {
+	float: left;
+	width: 10%;
+	height: 4em;
+	padding: .5% 0;
+	margin-left: -1.5%;
+}
+
+#navbar ul {
+	line-height: 4em;
+	margin: 0;
+	float: right;
+	padding: 0 1em;
+}
+
+#navbar li {
+	list-style-type: none;
+	display: inline-block;
+	/*padding: 0 1em;*/
+}
+
+#navbar a {
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 0 1em;
+}
+
+/*HEADER END*/
+
+/*BANNER START*/
+
+#banner {
+	height: 16em;
+	float: left;
+	width: 100%;
+}
+
+#banner-img {
+	background-image: url(assets/images/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+#overlay {
+	background-color: rgba(10, 100, 90, 0.3);
+	height: 100%;
+}
+
+#heading {
+	color: #fff;
+	padding: 4em 3em 3em 3em;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#banner h1 {
+	font-family: 'CrimsonText Bold', serif;
+}
+
+#banner h3 {
+	font-family: 'CrimsonText', serif;
+}
+
+/*BANNER END*/
+
+/*MAIN START*/
+
+main {
+	padding: 5% 10%;
+	font-family: 'CrimsonText', serif;
+}
+
+#left {
+	float: left;
+	width: 66.66%;
+	padding-right: 2%;
+	border-right: 1px solid #ddd;
+}
+
+#left h2 {
+	margin: 0;
+}
+
+blockquote {
+	color: #999;
+	font-family: 'CrimsonText', serif;
+	font-style: italic;
+	font-size: 1.5em;
+	padding: 1.5em 1em;
+}
+
+#bottom {
+	background-color: #ddd;
+}
+
+#bottom div {
+	float: left;
+	width: 33.33%;
+	padding: .5em 1.5em;
+}
+
+#right {
+	float: left;
+	width: 33.33%;
+	padding-left: 2%;
+}
+
+#right h3 {
+	padding-bottom: .5em;
+}
+
+#right div {
+	padding-bottom: 1em;
+}
+
+#right ul {
+	line-height: 2em;
+}
+
+/*MAIN END*/
+
+/*FOOTER START*/
+
+footer {
+	clear: both;
+	background-color: #eee;
+	padding: 1em;
+}
+
+footer small {
+	padding: 1em 1em 1em 0;
+}
+
+footer a {
+	padding: 1em;
+	color: #aaa;
+	font-family: sans-serif;
+	font-size: .8em;
+}
+
+/*FOOTER END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
