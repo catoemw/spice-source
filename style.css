@@ -157,6 +157,25 @@ blockquote {
 
 /*MAIN END*/
 
+/*ABOUT MAIN START*/
+
+h1 {
+	font-family: "CrimsonText-Bold";
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ddd;
+}
+
+.story > h2 + p {
+	font-size: 1.25em;
+}
+
+.map {
+	float: right;
+	padding: 0 1em;
+	border-left: 1px solid #ddd;
+	margin-left: 1em;
+}
+
 /*FOOTER START*/
 
 footer {
