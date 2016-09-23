@@ -165,7 +165,7 @@ main h1 {
 	border-bottom: 1px solid #ddd;
 }
 
-.story > h2 + p {
+.story > img + p {
 	font-size: 1.25em;
 }
 
@@ -236,6 +236,56 @@ main h1 {
 	float: right;
 	margin: .75em;
 }
+
+/*SHOP MAIN END*/
+
+/*CONTACT MAIN START*/
+
+form {
+	padding: 1em 1em;
+	font-family: sans-serif;
+}
+
+.info label {
+	display: block;
+	padding: 1em 0;
+}
+
+.info input {
+	display: block;
+	margin-bottom: 1em;
+	height: 2rem;
+	width: 100%; 
+}
+
+.info {
+	width: 30%;
+	float: left;
+	margin-right: 20%;
+}
+
+.message {
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	height: 6rem;
+}
+
+.offers {
+	clear: both;
+	float: left;
+	margin-top: .5em;
+}
+
+.submit {
+	clear: both;
+	display: block;
+}
+
 
 /*FOOTER START*/
 
