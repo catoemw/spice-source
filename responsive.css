@@ -1,0 +1,65 @@
+/*INDEX START*/
+
+@media (max-width: 550px) {
+	main {
+		padding: 2em 1em;
+	}
+
+	#logo {
+		margin: 0 .5em;
+	}
+
+	#left {
+		border: 0;
+		width: 100%;
+	}
+
+	#bottom div {
+		width: 100%;
+		padding: 1em 1em;
+	}
+
+	#right {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+/*INDEX END*/
+
+/*SHOP START*/
+
+@media (max-width: 550px) {
+	.img-border {
+		width: 100%;
+		margin: 1em auto;
+	}
+}
+
+/*SHOP END*/
+
+/*ABOUT START*/
+
+@media (max-width: 550px) {
+	.map {
+		padding: 1em 1em;
+		width: 100%;
+		margin: 0;
+		border: 0;
+	}
+}
+
+/*ABOUT END*/
+
+/*CONTACT START*/
+
+@media (max-width: 550px) {
+	.info {
+		width: 100%;
+	}
+}
+
+
+
+
+
